@@ -15,7 +15,7 @@ const cardList = document.getElementsByClassName("card");
 const firstCard = cardList[0];
 //All cards: Container
 const cards = document.getElementsByClassName("cards")[0];
-debugger;
+//debugger;
 
 for (i = 1; i < cardData.length; i++) {
     const clone = firstCard.cloneNode(true);
